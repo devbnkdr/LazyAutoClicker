@@ -198,4 +198,34 @@ commands to remove them too.
 
 ## License
 
-[MIT](LICENSE) © 2026 devbnkdr
+Lazy Auto Clicker is free and open source under the [MIT License](LICENSE).
+Copyright © 2026 devbnkdr.
+
+You can use, copy, change and share it, including commercially, as long as the
+copyright and license notice stay with it.
+
+## Disclaimer
+
+Lazy Auto Clicker is provided **"as is", without warranty of any kind**, express
+or implied, including the warranties of merchantability, fitness for a
+particular purpose and non-infringement. In no event shall the author be liable
+for any claim, damages or other liability arising from the software or its use.
+The [license](LICENSE) has the full terms.
+
+In plain words:
+
+- **You're responsible for how you use it.** Many games, websites and online
+  services ban automated input in their terms of service, and some detect it.
+  Account bans, suspensions, lost progress or other penalties are your risk, not
+  the author's. Check the rules of whatever you point it at.
+- **Automated clicks do whatever a real click would.** A click in the wrong
+  place can delete, buy, send or confirm something. Test with a short count
+  first, and remember **Ctrl + Alt + Esc** always stops a run.
+- **The installer changes system settings.** It needs `sudo` to load `uinput`,
+  add a udev rule and add you to the `input` group (see
+  [How it works](#how-it-works) for what that allows). Read `install.sh` before
+  you run it, and use `./uninstall.sh` to undo it.
+- Don't use it to break the law, get around access controls, or commit click
+  fraud, such as faking ad clicks, votes or views.
+- Lazy Auto Clicker isn't affiliated with or endorsed by any game, compositor or
+  desktop project it works with.
