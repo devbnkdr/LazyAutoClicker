@@ -1,0 +1,26 @@
+# Build output
+build/
+dist/
+*.spec
+.buildenv/
+
+# Release archives
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Old files kept for reference, not tracked
+_archive/
+
+# KDE folder settings
+.directory

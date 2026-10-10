@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Lazy Auto Clicker
+GenericName=Auto Clicker
+Comment=Precision automated mouse clicking for Wayland and X11
+Exec=lazyautoclicker
+Icon=lazyautoclicker
+Terminal=false
+Categories=Utility;Accessibility;
+Keywords=autoclicker;click;automation;macro;mouse;
+StartupNotify=true
+StartupWMClass=lazyautoclicker

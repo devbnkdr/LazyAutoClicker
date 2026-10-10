@@ -1,0 +1,31 @@
+name: Bug report
+description: Something isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: distro
+    attributes:
+      label: Distribution and desktop
+      placeholder: "CachyOS, KDE Plasma 6.4, Wayland"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Lazy Auto Clicker version
+      description: Output of `lazyautoclicker --version`
+    validations:
+      required: true
+  - type: textarea
+    id: perms
+    attributes:
+      label: Permission check
+      description: Output of `ls -l /dev/uinput` and `id -nG`
+      render: shell

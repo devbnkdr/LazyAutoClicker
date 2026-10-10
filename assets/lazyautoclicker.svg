@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5AB0FF"/>
+      <stop offset="1" stop-color="#0A5FE0"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E6EEF9"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#bg)"/>
+  <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#sheen)"/>
+  <rect x="16.75" y="16.75" width="222.5" height="222.5" rx="51.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1.5"/>
+  <circle cx="114" cy="96" r="30" fill="none" stroke="#FFFFFF" stroke-opacity="0.60" stroke-width="6"/>
+  <circle cx="114" cy="96" r="54" fill="none" stroke="#FFFFFF" stroke-opacity="0.26" stroke-width="5"/>
+  <path d="M114 96 L114 198 L138 174 L156 212 L178 202 L160 164 L192 160 Z"
+        transform="translate(3 6)" fill="#00205A" fill-opacity="0.28"
+        stroke="#00205A" stroke-opacity="0.28" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M114 96 L114 198 L138 174 L156 212 L178 202 L160 164 L192 160 Z"
+        fill="url(#cursor)" stroke="#0B2E6B" stroke-width="7" stroke-linejoin="round"/>
+</svg>

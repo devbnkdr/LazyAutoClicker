@@ -1,0 +1,4 @@
+# Lazy Auto Clicker — allow members of the "input" group to create virtual input
+# devices through /dev/uinput. Input event nodes are already group "input"
+# on Arch-based systems.
+KERNEL=="uinput", SUBSYSTEM=="misc", MODE="0660", GROUP="input", OPTIONS+="static_node=uinput"
